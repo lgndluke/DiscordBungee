@@ -1,0 +1,49 @@
+#--------------------------------------------------------------------------------------------
+#DiscordBungee Plugin information
+Version: '${project.version}'
+Author: 'lgndluke'
+#--------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------------------------
+# Make sure messages are inside '' symbols!
+#--------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------------------------
+#Used in front of messages sent by the Plugin.
+Prefix: '&f[&9&lDiscord&6&lBungee&f] | '
+
+#The message to be displayed between the 'Prefix' and the 'DiscordLink' messages.
+Message: '&7Join our &bDiscord: '
+
+#Your Discord-URL excluding https://discord.gg/ <- automatically added by the Plugin
+Link: 'DnZFdzMBAV'
+
+#The color of your discord link.
+#Supported colors: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html
+LinkColor: 'AQUA'
+
+#If you want to use Hex-Color-Codes, set 'UseHexColor' to true.
+#If 'UseHexColor' is true, 'LinkColor' above will be ignored!
+UseHexColor: true
+HexColor: '#7289da'
+
+#Further formatting options. (Effect the Discord-URL!)
+LinkIsBold: true
+LinkIsItalic: false
+LinkIsUnderlined: false
+#--------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------------------------
+#Player messages:
+
+#Used whenever a player tries to execute a command without permission.
+NoPermission: '&cYou are not allowed to use this command!'
+#--------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------------------------
+#Console messages:
+#Console does not support color-codes.
+
+#Used whenever the console tries to execute a player only command.
+ExecutedByConsole: 'This command can not be executed via console!'
+#--------------------------------------------------------------------------------------------

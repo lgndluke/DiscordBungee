@@ -1,0 +1,4 @@
+name: DiscordBungee
+version: '${project.version}'
+main: com.lgndluke.discordbungee.DiscordBungee
+author: lgndluke
