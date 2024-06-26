@@ -1,7 +1,7 @@
 package com.lgndluke.discordbungee.data;
 
 import net.md_5.bungee.api.plugin.Plugin;
-import org.bstats.bungeecord.Metrics;
+import com.lgndluke.discordbungee.bungeecord.Metrics;
 
 /**
  * This Class is used to create a connection with bStats Metrics.

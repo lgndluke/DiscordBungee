@@ -68,10 +68,8 @@ public class Discord extends Command {
     }
 
     private void sendNoPermissionMessage(ProxiedPlayer player) {
-
         ComponentBuilder noPermBuilder = new ComponentBuilder(ChatColor.translateAlternateColorCodes('&', stringMap.get("Prefix") + stringMap.get("NoPermission")));
         player.sendMessage(noPermBuilder.create());
-
     }
 
     private void updateValues() {
